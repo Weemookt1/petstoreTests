@@ -7,20 +7,26 @@ This project contains API tests for the Petstore API using Supertest and Jest.
  **Clone the repository:**
 
 git clone https://github.com/Weemookt1/petstoreTests
-cd petstoreTests
+  
+  cd petstoreTests
 
-Install dependencies:
-yarn install
+**Install dependencies:**
+  
+  yarn install
 
-Run all tests:
-yarn test
+**Run all tests:**
+  
+  yarn test
 
-Run a particular test:
-yarn test test/petstore.crud.spec.ts
+**Run a particular test:**
+  
+  yarn test test/petstore.crud.spec.ts
 
-Run Linting 
-Yarn lint 
+**Run Linting**
+  
+  Yarn lint 
 
-Run Prettier
-yarn run prettier-format
+**Run Prettier**
+  
+  yarn run prettier-format
 
