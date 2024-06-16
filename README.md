@@ -10,8 +10,10 @@ Before running the tests, ensure you have the following installed:
   - Playwright (`@playwright/test`)
 
 ## Setup ##
-Clone the repository:**
+Clone the repository:
+
 git clone https://github.com/Weemookt1/petstoreTests
+
 cd petstoreTests
 
 ## Install dependencies: ##
