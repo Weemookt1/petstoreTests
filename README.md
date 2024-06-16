@@ -2,31 +2,35 @@
 
 This project contains API tests for the Petstore API using Supertest and Jest.
 
-## Setup
+## Prerequisites: 
+Before running the tests, ensure you have the following installed: 
+  - Node.js (v18 or later recommended) 
+  - npm (Node Package Manager)
+  - yarn ( Node Package Manager)
+  - Playwright (`@playwright/test`)
 
- **Clone the repository:**
-
+## Setup ##
+Clone the repository:**
 git clone https://github.com/Weemookt1/petstoreTests
-  
-  cd petstoreTests
+cd petstoreTests
 
-**Install dependencies:**
+## Install dependencies: ##
   
   yarn install
 
-**Run all tests:**
+## Run all tests: ##
   
   yarn test
 
-**Run a particular test:**
+## Run a particular test: ##
   
   yarn test test/petstore.crud.spec.ts
 
-**Run Linting**
+## Run Linting ##
   
   Yarn lint 
 
-**Run Prettier**
+## Run Prettier ##
   
   yarn run prettier-format
 
