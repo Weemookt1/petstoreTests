@@ -7,7 +7,6 @@ Before running the tests, ensure you have the following installed:
   - Node.js (v18 or later recommended) 
   - npm (Node Package Manager)
   - yarn ( Node Package Manager)
-  - Playwright (`@playwright/test`)
 
 ## Setup ##
 Clone the repository:
