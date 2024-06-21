@@ -109,7 +109,7 @@ describe('Swagger Petstore API - Create Pet', () => {
       .send(newPet)
       .set('Accept', 'application/json')
       .set('Content-Type', 'application/json');
-    expect(response.status).toBe(400 | 500); // Ideally it should be 400, actual is 500.
+    expect(response.status).toBe(500); // Ideally it should be 400, actual is 500.
   });
 
   // Test creating a pet with null values(expected)
